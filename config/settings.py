@@ -8,7 +8,7 @@ import os
 from dotenv import load_dotenv
 
 ENV = os.getenv("DJANGO_ENV", "dev")
-
+ 
 load_dotenv(f".env.{ENV}")
 
 # SECURITY WARNING: keep the secret key used in production secret!
